@@ -39,5 +39,5 @@ site_thread.start()
 ping_thread.start()
 
 with app:
-	print("Отлично, бот работает теперь берем \"{url}\", и идем на uptimerobot.com")
+	print(f"Отлично, бот работает теперь берем \"{url}\", и идем на uptimerobot.com")
 app.run()
